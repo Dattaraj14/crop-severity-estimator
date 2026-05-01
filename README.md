@@ -2,6 +2,10 @@
 
 
 
+🌐 \*\*Live Demo:\*\* https://crop-severity-estimator-gbqokyxjsyrqyesauyknsb.streamlit.app/
+
+
+
 A machine learning system that predicts \*\*yield loss percentage\*\* from plant leaf images combined with weather data. Unlike typical disease classifiers, this project predicts the actual financial impact of crop disease on farmers.
 
 
