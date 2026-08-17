@@ -242,7 +242,7 @@ c1, c2, c3, c4 = st.columns(4)
 with c1:
     st.markdown('<div class="stat-card"><div class="stat-number">54K+</div><div class="stat-label">Training Images</div></div>', unsafe_allow_html=True)
 with c2:
-    st.markdown('<div class="stat-card"><div class="stat-number">90.6%</div><div class="stat-label">R² Accuracy</div></div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-card"><div class="stat-number">0.906</div><div class="stat-label">R² Accuracy</div></div>', unsafe_allow_html=True)
 with c3:
     st.markdown('<div class="stat-card"><div class="stat-number">38</div><div class="stat-label">Disease Classes</div></div>', unsafe_allow_html=True)
 with c4:
@@ -309,7 +309,7 @@ with right:
 
             st.markdown(f"""
             <div class="result-box">
-                <div class="result-label">Predicted Yield Loss</div>
+                <div class="result-label">Estimated Yield-Loss Risk</div>
                 <div class="result-number">{loss_pct}%</div>
                 {badge}
                 <div style="margin-top:1rem; font-size:0.78rem; color:#475569;">
