@@ -59,6 +59,4 @@ Feature extraction processes the full image collection and can take a long time 
 
 Start with [Development guide](docs/development.md) to understand the current project boundaries and commands. Before describing a model change as an improvement, document its data source and evaluate it on a split that avoids images from the same class or source appearing on both sides.
 
-## License
 
-No license file is currently included. Ask the repository owner before reusing or redistributing the code or model artifacts.
